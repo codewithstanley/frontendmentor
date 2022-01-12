@@ -19,6 +19,7 @@ html {
 }
 
 body {
+  background-color: var(--very-light-gray);
   font-family: "Lexend Deca", sans-serif;
   font-size: 1.5rem;
   line-height: 1.2;
@@ -43,7 +44,7 @@ a {
 }
 
 #section-container {
-  width: 80%;
+  width: 65%;
   max-width: 1440px;
   margin: 5rem auto;
 }
@@ -94,4 +95,19 @@ p {
 
 .ctaBtn-lux {
   color: var(--very-dark-cyan);
+}
+
+@media only screen and (min-width: 768px) {
+  #section-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #article-sedan {
+    border-radius: 10px 0 0 10px;
+  }
+
+  #article-luxury {
+    border-radius: 0 10px 10px 0;
+  }
 }
