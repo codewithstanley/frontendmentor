@@ -68,6 +68,10 @@ article {
   border-radius: 0 0 10px 10px;
 }
 
+footer {
+  color: #111;
+}
+
 header {
   font-size: 3rem;
   margin-top: 3rem;
