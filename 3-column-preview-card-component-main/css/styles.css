@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  /* ### Primary */
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  /* ### Neutral */
+  --transparent-white: hsla(0, 0%, 100%, 0.75); /* paragraphs */
+  --very-light-gray: hsl(0, 0%, 95%); /* (background, headings, buttons)*/
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  color: var(--transparent-white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--very-light-gray);
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+#section-container {
+  width: 80%;
+  max-width: 1440px;
+  margin: 5rem auto;
+}
+
+article {
+  font-size: 1.2rem;
+  padding: 4rem 6rem;
+}
+
+#article-sedan {
+  background-color: var(--bright-orange);
+  border-radius: 10px 10px 0 0;
+}
+
+#article-suv {
+  background-color: var(--dark-cyan);
+}
+
+#article-luxury {
+  background-color: var(--very-dark-cyan);
+  border-radius: 0 0 10px 10px;
+}
+
+header {
+  font-size: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+p {
+  margin-bottom: 3rem;
+  line-height: 2;
+}
+
+.ctaBtn {
+  background-color: #fff;
+  padding: 15px 30px;
+  border-radius: 30px;
+}
+
+.ctaBtn-sed {
+  color: var(--bright-orange);
+}
+
+.ctaBtn-suv {
+  color: var(--dark-cyan);
+}
+
+.ctaBtn-lux {
+  color: var(--very-dark-cyan);
+}
