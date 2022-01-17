@@ -18,3 +18,13 @@
 html {
   font-size: 10px;
 }
+
+body {
+  font-size: 1.6rem;
+}
+
+.main-container {
+  width: 60%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
